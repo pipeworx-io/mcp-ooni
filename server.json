@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/ooni",
   "title": "Ooni",
-  "description": "Internet censorship and website reachability: OONI network measurements, keyless",
-  "version": "0.1.0",
+  "description": "OONI MCP — internet censorship & website reachability measurements from the",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ooni",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ooni",

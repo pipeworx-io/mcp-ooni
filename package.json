@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-ooni",
-  "version": "0.1.0",
-  "description": "Internet censorship and website reachability: OONI network measurements, keyless",
+  "version": "0.1.1",
+  "description": "OONI MCP — internet censorship & website reachability measurements from the",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-ooni": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ooni"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-ooni"
+    "url": "git+https://github.com/pipeworx-io/mcp-ooni.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-fe415f5f9bd5851f4e79f2d394198f27b1689928ecad0734a59b705de180da96",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
