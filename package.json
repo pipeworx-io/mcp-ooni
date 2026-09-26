@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ooni",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OONI MCP — internet censorship & website reachability measurements from the",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-fe415f5f9bd5851f4e79f2d394198f27b1689928ecad0734a59b705de180da96",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-c2166c919e4a334a2d1e7c33b399ec12e4ed117b4d7dcfc1a1e5a2d703640de6",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
